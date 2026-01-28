@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+  font-family: 'Poppins', cursive;
+  background-color: #FFF3D8;      /* Beige claro */
+  color: #8CBF8C;                 /* Verde Celadon oscuro */
+  text-align: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+h1 {
+  font-size: 3em;
+  color: #61C9A8; /* Azul verdoso para Wavelength */
+  text-shadow: 2px 2px 4px #B9E399; /* sombra verde claro */
+  margin-bottom: 0.3em;
+}
+
+#dial-canvas {
+  margin: 20px auto;
+  display: block;
+  background: #f0db99;           /* Amarillo claro para la ruleta */
+  border-radius: 250px 250px 0 0;
+  border: 1.5px solid #8591A5;   /* Borde exterior gris azulado fino */
+}
+
+#controls {
+  margin: 10px;
+}
+
+input[type=range] {
+  width: 60%;
+}
+
+button {
+  margin: 10px;
+  padding: 8px 16px;
+  font-size: 1em;
+  font-family: 'Poppins', cursive;
+  background-color: #F7B32B;      /* Amarillo */
+  border: none;
+  border-radius: 8px;
+  color: #FFF3D8;                 /* Beige claro texto */
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #A5C379;      /* Verde suave */
+  color: #FAD76B;                 /* Amarillo claro */
+}
+
+#card-container {
+  margin: 20px 0;
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #8CBF8C;                 /* Verde Celadon */
+}
+
+#turn-info {
+  font-size: 1.3em;
+  margin: 10px;
+  font-weight: bold;
+  color: #F7B32B;                 /* Amarillo */
+}
+
+#result {
+  margin: 15px;
+  font-size: 1.2em;
+  color: #8CBF8C;                 /* Verde Celadon */
+  font-weight: 600;
+}

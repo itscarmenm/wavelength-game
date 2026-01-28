@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Wavelength</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <h1>Wavelength</h1>
+  <div id="turn-info"></div>
+  <div id="card-container"></div>
+
+  <canvas id="dial-canvas" width="500" height="250"></canvas>
+
+  <div id="controls">
+    <button id="spin-btn">Girar</button>
+    <button id="new-category-btn">Otra categoría</button>
+    <button id="hide-pointer-btn" style="display:none">Ocultar Aguja</button>
+    <input id="guess-range" type="range" min="0" max="100" value="50" style="display:none" />
+    <span id="guess-value" style="display:none">50</span>
+    <button id="submit-guess" style="display:none">Enviar Respuesta</button>
+    <button id="new-round-btn" style="display:none">Nueva Ronda</button>
+  </div>
+
+  <div id="result"></div>
+
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
