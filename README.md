@@ -8,7 +8,7 @@ Un divertido juego de mesa digital basado en el concepto de **Wavelength**, dond
 * **JavaScript (ES6+)**: Lógica del juego y manipulación del DOM.
 
 ## 🎮 Cómo jugar
-1. Abre el juego en tu navegador a través de GitHub Pages.
+1. Abre el juego en tu navegador a través de GitHub Pages: https://itscarmenm.github.io/wavelength-game/
 2. Un jugador ve la posición del objetivo y da una pista basada en un espectro (ejemplo: "Frío - Caliente").
 3. Los demás jugadores deben mover el dial hacia donde creen que se encuentra el objetivo oculto.
 4. ¡Gana puntos acercándote lo más posible al centro del objetivo!
